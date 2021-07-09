@@ -5,9 +5,12 @@
 
   button:hover {
     background-color: black;
-    border: solid;
-    mix-blend-mode: normal;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    mix-blend-mode: screen;
   }
+
   .card-column-container {
     display: flex;
     flex-direction: row;
