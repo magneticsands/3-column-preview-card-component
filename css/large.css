@@ -1,0 +1,28 @@
+@media (min-width: 780px) {
+  button {
+    margin-top: 88px;
+  }
+
+  button:hover {
+    background-color: black;
+    border: solid;
+    mix-blend-mode: normal;
+  }
+  .card-column-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    flex-direction: row;
+    width: 33.33%;
+  }
+
+  .sedans {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}
